@@ -33,8 +33,8 @@ BILSTM_NER_SEQ_LEN = 512
 BIOBERT_RE_SEQ_LEN = 128
 logging.getLogger('matplotlib.font_manager').disabled = True
 
-BIOBERT_NER_MODEL_DIR = "D:\\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\\trained-model"
-BIOBERT_RE_MODEL_DIR = "D:\\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\\trained_re_model"
+BIOBERT_NER_MODEL_DIR = "C:\\Users\\vedan\\OneDrive\\Documents\\GitHub\\Knowledge_Graph_Using_BioBERT\\trained-model"
+BIOBERT_RE_MODEL_DIR = "C:\\Users\\vedan\\OneDrive\\Documents\\GitHub\\Knowledge_Graph_Using_BioBERT\\trained_re_model"
 
 # =====BioBERT Model for NER======
 biobert_ner_labels = get_labels('preprocess\labels.txt')

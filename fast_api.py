@@ -51,7 +51,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-with open("D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\static\input2.txt") as f:
+with open("static\input2.txt") as f:
     SAMPLE_EHR = f.read()
 
 
