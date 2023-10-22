@@ -1,0 +1,20 @@
+Patient: John Doe
+Age: 45
+Gender: Male
+
+Chief Complaint: Severe headache
+
+Medical History:
+- Hypertension
+- Allergy to penicillin
+
+Medications:
+1. Drug: Acetaminophen
+   Strength:500mg
+   Form: tablet
+   Route: Oral
+   Duration: As needed
+   Frequency: Maximum 4timesaday
+   Dosage: Take 1 tablet
+
+

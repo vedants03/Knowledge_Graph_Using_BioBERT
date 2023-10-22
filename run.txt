@@ -1,0 +1,21 @@
+generate_data.py --task ner --input_dir D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\training_20180910 --ade_dir D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\ADE\ --target_dir D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\preprocess --max_seq_len 512 --dev_split 0.1 --tokenizer biobert-base --ext txt --sep " "
+
+generate_data.py --task ner --input_dir training_20180910 --ade_dir ADE/ --target_dir preprocess --max_seq_len 512 --dev_split 0.1 --tokenizer biobert-base --ext txt --sep " "
+
+python run_ner.py --data_dir D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\preprocess/ --labels D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\preprocess/labels.txt --model_name_or_path dmis-lab/biobert-base-cased-v1.2 --output_dir D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\trained_model --max_seq_length 128 --num_train_epochs 5 --per_device_train_batch_size 16 --save_steps 1000 --seed 0 --do_train --do_eval --do_predict --overwrite_output_dir
+
+generate_data.py --task re --input_dir D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\training_data --ade_dir D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\ADE\ --target_dir D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\preprocess_re --max_seq_len 512 --dev_split 0.1 --tokenizer biobert-base --ext tsv --sep tab
+
+python run_re.py --task_name ehr-re --config_name bert-base-cased --data_dir D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\preprocess_re --model_name_or_path dmis-lab/biobert-base-cased-v1.1 --max_seq_length 128 --num_train_epochs 3 --per_device_train_batch_size 8 --save_steps 1000 --seed 1 --do_train --do_eval --do_predict --learning_rate 5e-5 --output_dir D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\trained_re_model --overwrite_output_dir
+
+python run_re.py --task_name ehr-re --config_name bert-base-cased --data_dir preprocess_re --model_name_or_path dmis-lab/biobert-base-cased-v1.1 --max_seq_length 128 --num_train_epochs 3 --per_device_train_batch_size 8 --save_steps 10000 --seed 1 --do_train --do_eval --do_predict --learning_rate 5e-5 --output_dir trained_re_model --overwrite_output_dir
+
+python Track2-evaluate-ver4.py "D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\gold-standard-test-data\test" D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\training_data\test
+
+python run_re.py --task_name ehr-re --config_name bert-base-cased --data_dir D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\preprocess_re --model_name_or_path D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\trained_re_model --do_predict --output_dir D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\trained_re_model_test --overwrite_output_dir
+
+python run_re.py --task_name ehr-re --config_name bert-base-cased --data_dir D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\preprocess_re --model_name_or_path dmis-lab/biobert-base-cased-v1.1 --max_seq_length 128 --num_train_epochs 3 --per_device_train_batch_size 32 --save_steps 1000 --seed 1 --do_train --do_eval --do_predict --learning_rate 1e-5 --output_dir D:\Knowledge-Graph-using-NER---Relationship-Extraction-from-EHR\trained_re_model --overwrite_output_dir
+
+uvicorn fast_api:app --reload
+
+2QDCRuQhc_cSRRJRFQt1mPHhY3fAvdgbE_pD3HdhaEw

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Named Entity Recognition</title>
+    </head>
+
+    <style>
+        body{
+            background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100% );
+            align-items: center;
+            
+        }
+
+        .box{
+            width: 30%;
+            max-width: 1920px;
+            min-width: 480px;
+            padding: 30px;
+            border-radius: 15px;
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            background: rgb(42, 40, 40);
+            text-align: center;
+        }
+
+        h1{
+            color:white;
+        }
+
+        .file{
+            height: auto;
+            padding: 4px 4px;
+            border: 3px solid rgba(4,189,228,1);
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        .output{
+            width: 397px;
+            height: 188px;
+            resize: none;
+            border: 3px solid rgba(4,189,228,1);
+            border-radius: 5px;
+        }
+
+        .sub{
+            border: 0;
+            background: none;
+            text-align: center;
+            border:3px solid rgba(4,189,228,1);
+            width: 100px;
+            padding:9px 10px;
+            outline: none;
+            color: rgb(255, 255, 255);
+            border-radius: 12px;
+            transition:0.25px;
+            cursor:pointer;
+        }
+
+        .sub:hover{
+            background: rgba(4,189,228,1);
+        }
+    </style>
+
+    <body>
+        <form class="box" method="POST" enctype="multipart/form-data">
+            <h1>Named Entity Recognition</h1>
+            <input type="file" class="file" name="file" accept=".txt">
+            <input type="submit" value='Submit' style="margin-left: 30px; margin-right: 5px; margin-bottom: 30px;" class="sub" />
+            <textarea class="output" id="result" placeholder="Result will show here...." readonly>{{value}}</textarea>
+            <input value="Clear" class="sub" style="width: 75px; margin-top: 30px;" onclick="window.location.href='/';"/>
+        </form>
+            
+    </body>
+</html>

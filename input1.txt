@@ -1,0 +1,78 @@
+Admission Date:  [**2185-6-24**]              Discharge Date:   [**2185-7-21**]
+
+Date of Birth:  [**2107-8-9**]            
+
+Chief Complaint: Hypoxia
+
+Major Surgical or Invasive Procedure:
+Intubated ([**2185-6-24**])
+
+Past Medical History:
+1) Osteoarthritis
+2) Schizophrenia
+3) Tardive dyskinesia
+4) Neurogenic bladder indwelling catheter with recurrent UTIs
+5) BPH
+6) CAD
+7) Lumbar pain
+8) TURP
+9) Dysphagia with large hiatial hernia
+
+Medications on Admission:
+Preadmission medications listed are correct and complete.
+Information was obtained from Patient.
+1. Divalproex (DELayed Release) 250 mg PO QAM
+2. Divalproex (DELayed Release) 375 mg PO QHS
+3. Ranitidine (Liquid) 150 mg PO DAILY
+4. Acetaminophen 650 mg PO BID
+5. Milk of Magnesia 30 mL PO ONCE:PRN constipation
+6. Bisacodyl 10 mg PO DAILY:PRN constipation
+7. Loperamide 2 mg PO TID:PRN loose stools
+8. Lorazepam 0.5 mg PO Q4H:PRN anxiety
+9. DuoNeb *NF* (ipratropium-albuterol) 0.5 mg-3 mg(2.5 mg
+base)/3 mL Inhalation Q6 hours wheezing
+10. Megestrol Acetate 10 mg PO BID
+11. Risperidone 7 mg PO HS
+12. Mirtazapine 30 mg PO HS
+13. Hydrocodone-Acetaminophen 5mg-500mg 1 TAB PO Q6H:PRN pain
+Monitor for sedation, RR < 8
+14. Multivitamins 1 TAB PO DAILY
+
+
+Discharge Medications:
+1. Divalproex (DELayed Release) 250 mg PO QAM
+2. Divalproex (DELayed Release) 375 mg PO QHS
+3. Risperidone 7 mg PO HS
+4. Acetaminophen 650 mg PO BID
+5. Bisacodyl 10 mg PO DAILY:PRN constipation
+6. Multivitamins 1 TAB PO DAILY
+7. Megestrol Acetate 10 mg PO BID
+8. Milk of Magnesia 30 mL PO ONCE:PRN constipation
+9. Mirtazapine 30 mg PO HS
+10. Ranitidine (Liquid) 150 mg PO DAILY
+11. Loperamide 2 mg PO TID:PRN loose stools
+12. Lorazepam 0.5 mg PO Q4H:PRN anxiety
+13. Hydrocodone-Acetaminophen (5mg-500mg 1 TAB PO Q6H:PRN pain
+Monitor for sedation, RR < 8
+14. DuoNeb *NF* (ipratropium-albuterol) 0.5 mg-3 mg(2.5 mg
+base)/3 mL Inhalation Q6 hours wheezing
+15. Levothyroxine Sodium 25 mcg PO DAILY
+avoid taking around time of maalox, tums, simethicone
+RX *levothyroxine 25 mcg 1 tablet(s) by mouth daily Disp #*30
+Tablet Refills:*3
+16. Levofloxacin 500 mg PO Q24H Duration: 4 Days
+Please give until [**7-24**] for a total of 14 days
+RX *levofloxacin 500 mg 1 tablet(s) by mouth daily Disp #*4
+Tablet Refills:*0
+17. Warfarin 3 mg PO DAILY16
+(bridge with lovenox if INR <2)
+
+
+
+Discharge Disposition:
+Extended Care
+Discharge Diagnosis:Pulmonary Embolism
+
+
+
+

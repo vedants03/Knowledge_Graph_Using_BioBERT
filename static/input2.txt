@@ -1,0 +1,32 @@
+Admission Date:  [**2157-10-11**]              Discharge Date:   [**2157-11-30**]
+
+Date of Birth:  [**2096-8-13**]             Sex:   F
+
+Service: MEDICINE
+
+Allergies:
+Penicillins / Diphenhydramine / Percocet / Meropenem
+
+
+Medications on Admission:
+1. Lorazepam 0.5 mg Tablet Sig: One (1) Tablet PO Q4-6H (every4to6hours) as needed.
+2. Zofran 8 mg Tablet Sig: One (1) Tablet PO three times a day
+as needed for nausea.
+3. Potassium Chloride 20 mEq Tab Sust.Rel. Particle/Crystal Sig:Two (2) Tab Sust.Rel. Particle/Crystal PO once a day.
+4. Allopurinol 300 mg Tablet Sig: One (1) Tablet PO once a day.
+5. Levofloxacin 500 mg Tablet Sig: One (1) Tablet PO once a day
+
+
+Discharge Disposition:
+Expired
+
+Discharge Diagnosis:
+deceased
+hypoxia
+cardiac arrest
+acute renal failure
+
+Discharge Condition:
+deceased
+
+
