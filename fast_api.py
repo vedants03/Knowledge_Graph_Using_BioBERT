@@ -96,7 +96,7 @@ def get_ehr_predictions(ner_input: NERTask):
             print("Entity ID not found in the RE output.")
     print(rel_preds)
 
-    db = Neo4jDatabase("neo4j+s://b54ed0a1.databases.neo4j.io", "neo4j", "2QDCRuQhc_cSRRJRFQt1mPHhY3fAvdgbE_pD3HdhaEw")
+    db = Neo4jDatabase("YOUR_NEO4J_URI", "neo4j", "YOUR_NEO4J_PASSWORD")
 
     for record in rel_preds:
         entity1_text = record['Entity1 text']
@@ -149,7 +149,7 @@ def getAnswer(question_request: QuestionRequest):
     entity2 = ""
     answer = ""
 
-    db = Neo4jDatabase("neo4j+s://b54ed0a1.databases.neo4j.io", "neo4j", "2QDCRuQhc_cSRRJRFQt1mPHhY3fAvdgbE_pD3HdhaEw")
+    db = Neo4jDatabase("YOUR_NEO4J_URI", "neo4j", "YOUR_NEO4J_PASSWORD")
 
 
     if find_specific_word(question) == "ade" or find_specific_word(question) == "sideeffects":
